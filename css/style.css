@@ -22,7 +22,10 @@
 }
 /* FONDO ENCBZ/PIE */
 .bg-grad {
-	background-image: linear-gradient(to right, lightgrey, grey);
+	background-image: linear-gradient(to right, lightgrey, grey)!important;
+}
+.bg-grey {
+	background-color: lightgrey;
 }
 .navbar-expand-lg {
 	flex-flow: column;
@@ -38,4 +41,7 @@
 }
 .h6 {
 	font-size: 15px;
+}
+.list-group-item-link {
+	font-family: ;
 }
