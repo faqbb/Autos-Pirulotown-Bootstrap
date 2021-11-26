@@ -1,0 +1,41 @@
+/*FUENTES*/
+@font-face {
+	font-family: "LM-Bold";
+	src: url("../assets/fonts/LEMONMILK-Bold.otf");
+}
+@font-face {
+	font-family: "LM-Medium";
+	src: url("../assets/fonts/LEMONMILK-Medium.otf");
+}
+@font-face {
+	font-family: "LM-Light";
+	src: url("../assets/fonts/LEMONMILK-Light.otf");
+}
+.Fbold {
+	font-family: "LM-Bold";
+}
+.Fmedium {
+	font-family: "LM-Medium";
+}
+.Flight {
+	font-family: "LM-Light";
+}
+/* FONDO ENCBZ/PIE */
+.bg-grad {
+	background-image: linear-gradient(to right, lightgrey, grey);
+}
+.navbar-expand-lg {
+	flex-flow: column;
+}
+/*	ICONO */
+.icon {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.h1 {
+	font-size: 30px;
+}
+.h6 {
+	font-size: 15px;
+}
