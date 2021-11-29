@@ -20,21 +20,31 @@
 .Flight {
 	font-family: "LM-Light";
 }
-/* FONDO ENCBZ/PIE */
+/* FONDOS */
 .bg-grad {
 	background-image: linear-gradient(to right, lightgrey, grey)!important;
 }
 .bg-grey {
-	background-color: lightgrey;
+	background-color: #65727c;
 }
-.navbar-expand-lg {
-	
+.bg-beige {
+	background-color: #a68562;
+}
+.background-image {
+	background-image: url(../assets/imgs/bluebackground.jpg);
 }
 /*	ICONO */
 .icon {
 	display: flex;
 	justify-content: center;
 	align-items: center;
+}
+.nav-link {
+	transform: font-family 2s, font-size 2s;
+}
+.nav-link:hover {
+	font-family: "LM-Medium";
+	font-size: 20px ;
 }
 .h1 {
 	font-size: 30px;
@@ -52,8 +62,25 @@
 .navbar .navbar-expand-lg .navbar-light .col-sm-10 {
 	padding: 0px;
 }
+.vendor {
+	padding: 20px;
+}
+.brand {
+	padding: 20px;
+}
+.wppxs {
+	height: 50px;
+}
+.carousel {
+	padding-left: 0px;
+}
 @media (min-width: 1300px) {
 	.navbar-expand-lg .navbar-collapse {
 		justify-content: end;
+	}
+}
+@media (max-width: 1000px) {
+	.brand {
+		flex-direction: column-reverse;
 	}
 }
