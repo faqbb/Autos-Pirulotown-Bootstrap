@@ -33,6 +33,15 @@
 .background-image {
 	background-image: url(../assets/imgs/bluebackground.jpg);
 }
+.contactBackIg {
+	background-image: url(../assets/imgs/instagramback.png);
+}
+.contactBackWpp {
+	background-image: url(../assets/imgs/whatsappback.jpg);
+}
+.contactBackFb {
+	background-image: url(../assets/imgs/facebookback.jpg);
+}
 /*	ICONO */
 .icon {
 	display: flex;
@@ -48,6 +57,9 @@
 }
 .h1 {
 	font-size: 30px;
+}
+.h2 {
+	font-size: 20px;
 }
 .h6 {
 	font-size: 15px;
@@ -73,6 +85,9 @@
 }
 .carousel {
 	padding-left: 0px;
+}
+.height-bar {
+	height: 150px;
 }
 @media (min-width: 1300px) {
 	.navbar-expand-lg .navbar-collapse {
